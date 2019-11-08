@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TRIVIA_HN</string>
+    <string name="BtnAyuda">AYUDA</string>
+    <string name="BtnSalir">SALIR</string>
+    <string name="BtnModoFacil">MODO FACIL</string>
+    <string name="BtnModoDificil">MODO FACIL</string>
+    <string name="TxtModoJuego">MODO DE JUEGO</string>
+    <string name="TxtTriviaHN">TRIVIAHN</string>
+    <string name="ImgNombreImagen">ee98b5f8d2f4248f76d6c457f190a414</string>
+    <string name="TxtTriviaHN2">TRIVIAHN</string>
+    <string name="TxtAyuda">EL JUEGO CONSISTE EN DOS
+        NIVELES DE DIFICULTAD:
+
+        FACIL Y DIFICIL
+
+        ¿TE ATREVES AL RETO?
+
+        JUEGA CON TUS AMIGOS Y DEMUESTRA QUIEN ES EL MÁS LISTO
+
+        LAS PREGUNTAS SON DE CULTURA GENERAL DE HONDURAS
+    </string>
+
+</resources>
