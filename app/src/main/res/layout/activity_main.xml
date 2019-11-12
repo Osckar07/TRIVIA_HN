@@ -26,7 +26,7 @@
         <Button
                 android:text="@string/BtnModoFacil"
                 android:layout_width="281dp"
-                android:layout_height="wrap_content" android:id="@+id/button6" android:translationX="13dp"
+                android:layout_height="wrap_content" android:id="@+id/BtnModoFacil" android:translationX="13dp"
                 android:translationY="180dp" />
 
         <Button
@@ -41,14 +41,14 @@
                 android:layout_height="wrap_content" android:id="@+id/button2" android:translationX="165dp"
                 android:translationY="400dp"/>
         <Button
-                android:text="@string/BtnModoFacil"
+                android:text="@string/BtnModoDificil"
                 android:layout_width="281dp"
                 android:layout_height="wrap_content" android:id="@+id/button3" android:translationX="13dp"
                 android:translationY="240dp"/>
         <TextView
                 android:text="@string/TxtModoJuego"
                 android:layout_width="158dp"
-                android:layout_height="39dp" android:id="@+id/textView" android:translationX="75sp"
+                android:layout_height="60dp" android:id="@+id/textView" android:translationX="75sp"
                 android:translationY="70sp" android:textAlignment="center" android:fontFamily="sans-serif-black"
                 android:textSize="18sp"/>
     </FrameLayout>

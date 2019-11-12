@@ -3,7 +3,7 @@
     <string name="BtnAyuda">AYUDA</string>
     <string name="BtnSalir">SALIR</string>
     <string name="BtnModoFacil">MODO FACIL</string>
-    <string name="BtnModoDificil">MODO FACIL</string>
+    <string name="BtnModoDificil">MODO DIFICIL</string>
     <string name="TxtModoJuego">MODO DE JUEGO</string>
     <string name="TxtTriviaHN">TRIVIAHN</string>
     <string name="ImgNombreImagen">ee98b5f8d2f4248f76d6c457f190a414</string>
@@ -19,5 +19,12 @@
 
         LAS PREGUNTAS SON DE CULTURA GENERAL DE HONDURAS
     </string>
+    <string name="BtnRegresar">Regresar</string>
+    <string name="TxtPregunta">Pregunta</string>
+    <string name="Rb1">Respuesta1</string>
+    <string name="Rb2">Respuesta2</string>
+    <string name="Rb3">Respuesta3</string>
+    <string name="Rb4">Respuesta4</string>
+
 
 </resources>
