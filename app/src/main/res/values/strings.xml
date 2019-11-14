@@ -18,6 +18,7 @@
         JUEGA CON TUS AMIGOS Y DEMUESTRA QUIEN ES EL MÁS LISTO
 
         LAS PREGUNTAS SON DE CULTURA GENERAL DE HONDURAS
+
     </string>
     <string name="BtnRegresar">Regresar</string>
     <string name="TxtPregunta">Pregunta</string>
@@ -25,6 +26,8 @@
     <string name="Rb2">Respuesta2</string>
     <string name="Rb3">Respuesta3</string>
     <string name="Rb4">Respuesta4</string>
+    <string name="txtByOscar">By Oscar Benites</string>
+    <string name="BtnSiguiente">Siguiente</string>
 
 
 </resources>
