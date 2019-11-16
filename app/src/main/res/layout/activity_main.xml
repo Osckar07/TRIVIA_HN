@@ -38,7 +38,7 @@
         <Button
                 android:text="@string/BtnSalir"
                 android:layout_width="104dp"
-                android:layout_height="wrap_content" android:id="@+id/button2" android:translationX="165dp"
+                android:layout_height="wrap_content" android:id="@+id/BtnSalir" android:translationX="165dp"
                 android:translationY="400dp"/>
         <Button
                 android:text="@string/BtnModoDificil"

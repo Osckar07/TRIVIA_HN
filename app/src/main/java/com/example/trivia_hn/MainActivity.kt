@@ -1,12 +1,11 @@
 package com.example.trivia_hn
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.view.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -38,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+
 
     }
 }
