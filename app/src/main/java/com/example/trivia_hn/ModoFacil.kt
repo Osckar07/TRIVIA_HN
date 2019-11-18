@@ -13,13 +13,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_modo_facil.*
 import java.util.*
-
+var Puntos = 0
 class ModoFacil : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_modo_facil)
-
         val Pregunta: TextView = findViewById(R.id.TvPreguntas)
         val Respuesta1: RadioButton = findViewById(R.id.Respuesta1)
         val Respuesta2: RadioButton = findViewById(R.id.Respuesta2)
@@ -227,6 +226,7 @@ class ModoFacil : AppCompatActivity() {
                 BotonSiguiente.setOnClickListener {
                     Log.d("btnSiguiente", "Hola")
                     if (RespuestaBuena == 1) {
+                        Puntos +=10
                         Toast.makeText(
                             this@ModoFacil,
                             "¡Respuesta Correcta :)!",
@@ -237,12 +237,13 @@ class ModoFacil : AppCompatActivity() {
                         val intent: Intent = Intent(this, MainActivity::class.java)
                         val perdida = AlertDialog.Builder(this)
                         perdida.setTitle("Perdiste")
-                        perdida.setMessage("Te has equivocado, intentalo nuevamente")
+                        perdida.setMessage("Te has equivocado, intentalo nuevamente.       Puntos:$Puntos")
                         perdida.setPositiveButton("Listo") { _: DialogInterface?, _: Int ->
                             startActivity(intent)
                             finish()
                         }
                         perdida.show()
+                        Puntos = 0
                     }
 
                     Respuesta1.isChecked = false
@@ -280,10 +281,10 @@ class ModoFacil : AppCompatActivity() {
                     2 -> {
 
                         Pregunta.text = "¿Cauntos Municipios tiene Honduras?"
-                        Respuesta1.text = "1980 Municipios"
-                        Respuesta2.text = "2890 Municipios"
+                        Respuesta1.text = "1,980 Municipios"
+                        Respuesta2.text = "2,890 Municipios"
                         Respuesta3.text = "3,731 Municipios"
-                        Respuesta4.text = "3000 Municipios"
+                        Respuesta4.text = "3,000 Municipios"
 
 
                         Respuesta3.setOnClickListener(object : View.OnClickListener {
@@ -310,10 +311,10 @@ class ModoFacil : AppCompatActivity() {
                     4 -> {
 
                         Pregunta.text = "¿En que año se Independizó Honduras?"
-                        Respuesta1.text = "1821"
-                        Respuesta2.text = "1874"
-                        Respuesta3.text = "1800"
-                        Respuesta4.text = "1890"
+                        Respuesta1.text = "1,821"
+                        Respuesta2.text = "1,874"
+                        Respuesta3.text = "1,800"
+                        Respuesta4.text = "1,890"
 
 
                         Respuesta1.setOnClickListener(object : View.OnClickListener {
@@ -329,6 +330,7 @@ class ModoFacil : AppCompatActivity() {
                 BotonSiguiente.setOnClickListener {
                     Log.d("btnSiguiente", "Hola")
                     if (RespuestaBuena == 1) {
+                        Puntos +=10
                         Toast.makeText(
                             this@ModoFacil,
                             "¡Respuesta Correcta :)!",
@@ -339,12 +341,13 @@ class ModoFacil : AppCompatActivity() {
                         val intent: Intent = Intent(this, MainActivity::class.java)
                         val perdida = AlertDialog.Builder(this)
                         perdida.setTitle("Perdiste")
-                        perdida.setMessage("Te has equivocado, intentalo nuevamente")
+                        perdida.setMessage("Te has equivocado, intentalo nuevamente.  Puntos:$Puntos")
                         perdida.setPositiveButton("Listo") { _: DialogInterface?, _: Int ->
                             startActivity(intent)
                             finish()
                         }
                         perdida.show()
+                        Puntos = 0
                     }
 
                     Respuesta1.isChecked = false
