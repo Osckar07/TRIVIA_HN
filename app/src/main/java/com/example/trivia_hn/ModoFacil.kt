@@ -219,6 +219,51 @@ class ModoFacil : AppCompatActivity() {
                             }
                         })
                     }
+                    13 -> {
+                        Pregunta.text = "¿Cual es el Arbol Nacional de Honduras?"
+                        Respuesta1.text = "El pino"
+                        Respuesta2.text = "El cedro"
+                        Respuesta3.text = "El naranjo"
+                        Respuesta4.text = "El limón"
+
+
+                        Respuesta1.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+
+                            }
+                        })
+                    }
+                    14 -> {
+                        Pregunta.text = "¿Cuantos colores tiene la bandera de Honduras?"
+                        Respuesta1.text = "1"
+                        Respuesta2.text = "2"
+                        Respuesta3.text = "3"
+                        Respuesta4.text = "4"
+
+
+                        Respuesta2.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+
+                            }
+                        })
+                    }
+                    15 -> {
+                        Pregunta.text = "¿En que departamento de encuentra Siguatepeque?"
+                        Respuesta1.text = "Initibucá"
+                        Respuesta2.text = "Cortes"
+                        Respuesta3.text = "Comayagua"
+                        Respuesta4.text = "Francisco Morazan"
+
+
+                        Respuesta2.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+
+                            }
+                        })
+                    }
 
 
                 }
@@ -323,6 +368,176 @@ class ModoFacil : AppCompatActivity() {
                             }
                         })
                     }
+                    5 -> {
+
+                        Pregunta.text = "¿Quien compuso la letra del Himno Nacional de Honduras?"
+                        Respuesta1.text = "Augusto C. Coello"
+                        Respuesta2.text = "Carlos Hartling"
+                        Respuesta3.text = "Francsico Morazan"
+                        Respuesta4.text = "Dionisio de Herrera"
+
+
+                        Respuesta2.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    6 -> {
+
+                        Pregunta.text = "¿Cual es la cabecera departamental de Olancho?"
+                        Respuesta1.text = "La ceiba"
+                        Respuesta2.text = "Catacamas"
+                        Respuesta3.text = "Juticalpa"
+                        Respuesta4.text = "Tela"
+
+
+                        Respuesta3.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    7 -> {
+
+                        Pregunta.text = "¿Donde se encuentra ubicado el Fuerte de San Fernando?"
+                        Respuesta1.text = "Copán"
+                        Respuesta2.text = "Ceiba"
+                        Respuesta3.text = "Tela"
+                        Respuesta4.text = "Omoa"
+
+
+                        Respuesta4.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    8 -> {
+
+                        Pregunta.text = "¿Donde se encuentra ubicado el Fuerte de San Cristobal?"
+                        Respuesta1.text = "Intibucá"
+                        Respuesta2.text = "Gracias"
+                        Respuesta3.text = "Olancho"
+                        Respuesta4.text = "Progreso"
+
+
+                        Respuesta2.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    9 -> {
+
+                        Pregunta.text = "¿Quien es el escritor del Himno a la Granadera"
+                        Respuesta1.text = "Carlos Hartling"
+                        Respuesta2.text = "Augusto C. Coello"
+                        Respuesta3.text = "Romulo E. Durón"
+                        Respuesta4.text = "José Antonio Dominguez"
+
+
+                        Respuesta3.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    10 -> {
+
+                        Pregunta.text = "¿Donde murió Francisco Morazan?"
+                        Respuesta1.text = "Honduras"
+                        Respuesta2.text = "El Salvador"
+                        Respuesta3.text = "Costa Rica"
+                        Respuesta4.text = "Belice"
+
+
+                        Respuesta3.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    11 -> {
+
+                        Pregunta.text = "¿Donde murió José Cecilio del Valle?"
+                        Respuesta1.text = "Honduras"
+                        Respuesta2.text = "El Salvador"
+                        Respuesta3.text = "Costa Rica"
+                        Respuesta4.text = "Guatemala"
+
+
+                        Respuesta4.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    12 -> {
+
+                        Pregunta.text = "¿Donde murió Dionisio de Herrera?"
+                        Respuesta1.text = "Honduras"
+                        Respuesta2.text = "El Salvador"
+                        Respuesta3.text = "Costa Rica"
+                        Respuesta4.text = "Belice"
+
+
+                        Respuesta2.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    13 -> {
+
+                        Pregunta.text = "¿Donde murió José Trinidad Reyes?"
+                        Respuesta1.text = "Honduras"
+                        Respuesta2.text = "El Salvador"
+                        Respuesta3.text = "Costa Rica"
+                        Respuesta4.text = "Belice"
+
+
+                        Respuesta1.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    14 -> {
+
+                        Pregunta.text = "¿Donde murió José Trinidad Cabañas?"
+                        Respuesta1.text = "Honduras"
+                        Respuesta2.text = "El Salvador"
+                        Respuesta3.text = "Costa Rica"
+                        Respuesta4.text = "Belice"
+
+
+                        Respuesta1.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+                    15 -> {
+
+                        Pregunta.text = "¿Donde se encunetra la Represa Hidroelectrica El Cajón?"
+                        Respuesta1.text = "Cortes"
+                        Respuesta2.text = "Valle"
+                        Respuesta3.text = "Comayagua"
+                        Respuesta4.text = "Intibucá"
+
+
+                        Respuesta1.setOnClickListener(object : View.OnClickListener {
+                            override fun onClick(v: View?) {
+                                RespuestaBuena = 1
+                            }
+                        })
+                    }
+
+
+
+
+
 
 
 
